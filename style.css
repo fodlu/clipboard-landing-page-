@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+    text-align: center;
+    background-image: url('images/bg-header-desktop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: white;
+}
+
+h2{
+    font-weight: 600;
+}
+
+p{
+    font-size: 13px;
+}
+
+.btn_ios{
+    width: 170px;
+    margin: 15px;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 0 0 3px 1px hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn_mac{
+    width: 170px;
+    margin: 15px;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 0 0 3px 1px hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+.container{
+    margin-top: 100px;
+}
+
+.container .logo img{
+    margin: 50px auto;
+    width: 70px;
+}
+
+.container .header{
+    width: 450px;
+    margin: auto;
+}
+
+.hero1 .head{
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hero1 .head h2{
+    font-size: 1.3em;
+}
+
+.hero1 .head p{
+    font-size: 11.5px;
+}
+
+.hero1 .hero-section1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero1 .hero-section1 img{
+    width: 100%;
+}
+
+.hero1 .hero-section1 .text{
+    text-align: left;
+    font-size: small;
+    margin: 0 100px 0 30px;
+    line-height: 20px;
+    width: 320px;
+}
+
+.hero1 .hero-section1 .text p{
+    margin-bottom: 50px;
+}
+
+.hero2 .text, .hero3 .text{
+    width: 450px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.hero2 img{
+    margin-top: 70px;
+    width: 70%;
+    text-shadow: 0 0 5px 5px black;
+}
+
+.sneak{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sneak div{
+    width: 20%;
+    padding: 20px;
+}
+
+.sneak div img{
+    width: 30px;
+    margin: 5px;
+}
+
+.sneak div p{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.google{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.google img{
+    width: 100px;
+    height: 30px;
+}
+
+.last{
+    width: 450px;
+    margin: auto;
+}
+
+.last p{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 236, 236);
+    height: 100px;
+    width: 100%;
+}
+
+.foot img{
+    width: 30px;
+}
+
+.foot .faq{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot .faq p{
+    margin: 4px 15px;
+}
+
+.foot .social img{
+    width: 20px;
+    margin: 0 15px;
+}
+
+.btn_ios:hover{
+    background-color: hsl(203, 40%, 77%);
+}
+
+.btn_mac:hover{
+    background-color: hsl(213, 26%, 59%);
+}
+
+@media only screen and (max-width: 485px) {
+    body{
+        background-image: url('images/bg-header-mobile.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: white;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .container .logo img{
+        width: 200px;
+    }
+
+    .btn_ios, .btn_mac{
+        width: 100%;
+        height: 50px;
+    }
+
+    h2{
+        font-size: 45px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .hero1 .head{
+        width: 100%;
+    }
+
+    .hero1 .head h2{
+        font-size: 40px;
+    }
+
+    .hero1 .head p{
+        font-size: 20px;
+    }
+
+    .hero1 .hero-section1{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .hero1 .hero-section1 .text{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .hero1 .hero-section1 .text h4{
+        font-size: 25px;
+    }
+
+    .hero2 img{
+        width: 100%;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .sneak{
+        display: block;
+    }
+
+    .sneak div{
+        display: block;
+        width: 100%;
+    }
+
+    .sneak div h5{
+        font-size: 25px;
+    }
+
+    .sneak div p{
+        font-size: 20px;
+    }
+
+    .sneak div img{
+        width: 10%;
+    }
+
+    .google{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .google img{
+        display: block;
+        height: 50%;
+        width: 50%;
+        margin: 20px;
+    }
+
+    .last p{
+        font-size: 20px;
+    }
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .foot img{
+        width: 100px;
+
+    }
+
+    .foot .faq{
+        display: block;
+    }
+
+    .foot .faq p{
+        font-size: 20px;
+        margin: 10px;
+        
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+}
